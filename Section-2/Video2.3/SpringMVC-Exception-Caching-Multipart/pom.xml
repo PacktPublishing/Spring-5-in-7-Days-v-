@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.demo</groupId>
-	<artifactId>SpringMVC-DispatcherServlet-Controllers</artifactId>
+	<artifactId>SpringMVC-Exception-Caching-Multipart</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringMVC-DispatcherServlet-Controllers</name>
+	<name>SpringMVC-Exception-Caching-Multipart</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<logback.version>1.0.13</logback.version>
@@ -90,7 +90,7 @@
 		</repository>
 	</repositories>
 	<build>
-		<finalName>SpringMVC-DispatcherServlet-Controllers</finalName>
+		<finalName>SpringMVC-Exception-Caching-Multipart</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>

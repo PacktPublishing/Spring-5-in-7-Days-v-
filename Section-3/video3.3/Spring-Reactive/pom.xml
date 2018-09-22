@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.demo</groupId>
-	<artifactId>SpringMVC-DispatcherServlet-Controllers</artifactId>
+	<artifactId>Spring-Reactive</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringMVC-DispatcherServlet-Controllers</name>
+	<name>Spring-Reactive</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<logback.version>1.0.13</logback.version>
@@ -26,7 +26,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
+			<artifactId>spring-webflux</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
@@ -41,21 +41,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>javax.servlet.jsp.jstl</groupId>
-			<artifactId>javax.servlet.jsp.jstl-api</artifactId>
-			<version>1.2.1</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.1</version>
-			<scope>provided</scope>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+			<version>2.0.4.RELEASE</version>
 		</dependency>
 		<!-- Logging with SLF4J & LogBack -->
 		<dependency>
@@ -69,6 +57,11 @@
 			<artifactId>logback-classic</artifactId>
 			<version>${logback.version}</version>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.0</version>
 		</dependency>
 	</dependencies>
 	<repositories>
@@ -90,7 +83,7 @@
 		</repository>
 	</repositories>
 	<build>
-		<finalName>SpringMVC-DispatcherServlet-Controllers</finalName>
+		<finalName>Spring-Reactive</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
