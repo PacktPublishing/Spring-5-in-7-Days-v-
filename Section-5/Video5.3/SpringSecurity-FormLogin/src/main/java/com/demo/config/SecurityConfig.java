@@ -37,11 +37,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     	
     	http
 		.logout()                                             
-			.logoutUrl("/customlogout") // This must be post due to CSRF                                 
-			.logoutSuccessUrl("/login") // Default is login page                     
+			.logoutUrl("/customlogout") // This must be post method due to CSRF                                 
+			.logoutSuccessUrl("/login?logout") // Default is login page                     
 			.logoutSuccessHandler(new CustomLogoutSuccessHandler())                              
 			.invalidateHttpSession(true) //true by default                                     
 			.deleteCookies("JSESSIONID");
     	
+    	//http.csrf().disable();
     }
 }

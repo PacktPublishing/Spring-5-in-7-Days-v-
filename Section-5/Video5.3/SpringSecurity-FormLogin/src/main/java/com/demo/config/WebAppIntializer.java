@@ -6,7 +6,7 @@ import org.springframework.web.servlet.support.*;
  * @author ankidaemon
  *
  */
-public class WebAppIntializer extends AbstractAnnotationConfigDispatcherServletInitializer{
+public class WebAppIntializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class WebAppIntializer extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	protected String[] getServletMappings() {
 		// TODO Auto-generated method stub
-		return new String[] {"/"};
+		return new String[] { "/" };
 	}
 
 	@Override
