@@ -35,4 +35,14 @@ public class User {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean isEnabled() {
+		// TODO Auto-generated method stub
+		return true;
+	}
 }

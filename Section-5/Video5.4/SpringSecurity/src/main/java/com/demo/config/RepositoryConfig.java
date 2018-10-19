@@ -19,8 +19,6 @@ public class RepositoryConfig {
 	private String username;
 	@Value("${jdbc.password}")
 	private String password;
-	@Value("${jdbc.initSql}")
-	private String initSql;
 	
 	@Bean
 	public DriverManagerDataSource getDataSource(){
@@ -29,7 +27,6 @@ public class RepositoryConfig {
 		ds.setUrl(url);
 		ds.setUsername(username);
 		ds.setPassword(password);
-		System.out.println("---Ankit---data source bean created"+ds.toString());
 		return ds;
 	}
 	
