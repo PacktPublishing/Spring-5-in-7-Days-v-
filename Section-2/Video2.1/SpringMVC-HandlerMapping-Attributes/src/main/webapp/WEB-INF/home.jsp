@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring5-ReactJs</title>
+<title>Spring5-in 7 days</title>
 </head>
 <body>
-	Hello and Welcome to Spring5-ReactJs tutorial
+	Hello and Welcome to Spring5-in 7 days tutorial
 	<br>
 	<br>
 	<table>

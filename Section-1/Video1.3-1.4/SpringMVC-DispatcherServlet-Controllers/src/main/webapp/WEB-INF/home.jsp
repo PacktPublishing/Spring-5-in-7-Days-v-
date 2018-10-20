@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Simple Spring Security</title>
+<title>Simple Spring</title>
 </head>
 <body>
 
-Hello and Welcome to Spring5-ReactJs tutorial
+Hello and Welcome to Spring5-in 7 Days tutorial
 <p>Your Session id is: "${pageContext.request.session.id}"</p>
 
 </body>

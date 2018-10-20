@@ -87,6 +87,7 @@
 			<id>repository.spring.release</id>
 			<name>Spring GA Repository</name>
 			<url>http://repo.spring.io/release</url>
+			<!-- <url>http://repo.spring.io/milestone</url> -->
 		</repository>
 	</repositories>
 	<build>

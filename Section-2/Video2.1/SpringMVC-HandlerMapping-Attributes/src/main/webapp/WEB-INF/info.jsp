@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring5-ReactJs</title>
+<title>Spring5-in 7 days</title>
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/styles/mainStyle.css" />
 </head>
